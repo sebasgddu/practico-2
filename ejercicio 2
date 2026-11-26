@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    
+    //Entrada
+    int p1;
+    int p2;
+    int resultado;
+    
+    //proceso
+    
+    cout<< "Ingresa el primer número: ";
+    cin>> p1;
+    cout<< "Ingrese el segundo número: ";
+    cin>> p2;
+    
+    resultado=p1+p2;
+    
+    //Salida
+    
+    cout<< "El resultado será: "<<resultado<<endl;
+
+    return 0;
+}
