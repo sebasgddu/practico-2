@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+
+using namespace std; 
+
+int main () { 
+    
+//Entrada
+
+string nombre; 
+int edad; 
+string carrera;
+int semestre; 
+
+//Proceso
+
+cout<< "Ingresa el nombre: ";
+cin>> nombre;
+cout<< "Ingresa la edad del estudiante: ";
+cin>> edad;
+cout<< "Ingresa la carrera del estudiante: ";
+cin>> carrera;
+cout<< "Ingresa el semestre del estudiante: ";
+cin>> semestre;
+
+
+//Mostrar 
+
+cout<< "nombre: " <<nombre<< endl;
+cout<< "edad: " <<edad<< endl;
+cout<< "carrera: " <<carrera<< endl;
+cout<< "semestre: " <<semestre<< endl;
+
+return 0;
+}
