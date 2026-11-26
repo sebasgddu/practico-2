@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Variables
+    int base;
+    int altura;
+    int area;
+
+    // Entrada
+    cout << "Ingrese la base del triangulo: ";
+    cin >> base;
+
+    cout << "Ingrese la altura del triangulo: ";
+    cin >> altura;
+
+    // Proceso
+    area = (base * altura) / 2;
+
+    // Salida
+    cout << "El area del triangulo es: " << area << endl;
+
+    return 0;
+}
