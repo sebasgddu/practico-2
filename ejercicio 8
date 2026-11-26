@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Variables
+    int monto;
+    int totalFinal;
+
+    // Entrada
+    cout << "Ingrese el monto total de la compra: ";
+    cin >> monto;
+
+    // Proceso
+    if (monto > 100) {
+        totalFinal = monto * 0.90;
+    } else {
+        totalFinal = monto;
+    }
+
+    // Salida
+    cout << "El total final a pagar es: " << totalFinal << " Bs" << endl;
+
+    return 0;
+}
